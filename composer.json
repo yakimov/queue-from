@@ -1,0 +1,21 @@
+{
+    "name": "s25/queue-from",
+    "description": "Queue from Generator, DirectoryIterator, Array",
+    "keywords": ["queue", "redis", "utils"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Yakimov",
+            "email": "vovka@s25.ru"
+        }
+    ],
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "S25\\Queue\\": "src/"
+        }
+    }
+}
